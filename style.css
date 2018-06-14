@@ -1,0 +1,182 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+p, a, h1, h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* start Navbar area*/
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.navbar-light .navbar-toggler{
+    border:none!important;
+    outline:none!important;
+}
+.dark-blue-text {
+    color: #000000;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+/* end Navbar area*/
+
+/*Background shapes*/
+.background-tr{
+    position: relative;
+}
+.background-tr img{
+    position: absolute;
+    top: -300px;
+    right: -200px;
+}
+
+.banner-area .container {
+    position: relative;
+}
+.banner-area img{
+    position: absolute;
+    width: 600px;
+    bottom: -300px;
+    left: -200px;
+    z-index: -1;
+}
+#team {
+    position: relative;
+}
+
+.background-grey{
+    background-color: #fcfcfc;
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 5%;
+}
+
+img.background-br {
+    position: absolute;
+    top: -183px;
+    right: -390px;
+    width: 600px;
+}
+.title h1 {
+    color: #676dea;
+    font-weight: 800;
+    word-wrap: break-word;
+    width: 533px;
+    text-align: center;
+    margin: auto;
+}
+
+.story-content p{
+    color: #3f3d55;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.story-content a.btn {
+    background-color: #676dea;
+    font-weight: 300;
+}
+
+.contact-area h5{
+    color: #3f3d55;
+}
+.contact-area .card{
+    border: none;
+}
+
+.contact-area p{
+    color: #525165;
+}
+
+/*Mobile & Responsive*/
+@media only screen and (max-width: 1010px) {
+    .background-tr img{
+        position: absolute;
+        top: -29px;
+        right: 0;
+        width: 200px;
+    }
+    img.background-br{
+        position: absolute;
+        top: 0;
+        right: -212px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 768px){
+    /*background-shapes*/
+    .background-tr img{
+        top: -120px;
+        right: -55px;
+        width: 250px;
+    }
+    img.background-br{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        z-index: -1;
+    }
+    .icon-left{
+        margin-top:60px;
+    }
+    .icon{
+        font-size: 30px;
+        display: block;
+        background: #fcfcfc;
+        text-align: center;
+        padding: 20px;
+    }
+    .story-content a{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 480px) {
+    .title h1{
+        font-size: 20px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .story-content p{
+        text-align: justify;
+    }
+    .icon{
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+    }
+    .story-content a{
+        margin-bottom: 20px;
+    }
+
+    /*Background shapes*/
+    .background-tr img{
+        top: -30px;
+        right: -30px;
+        width: 120px;
+    }
+    .banner-area img{
+        position: absolute;
+        width: 250px;
+        bottom: -355px;
+        left: -100px;
+        z-index: -1;
+    }
+
+
+}
